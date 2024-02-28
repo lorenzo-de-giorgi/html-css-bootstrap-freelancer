@@ -13,23 +13,23 @@
 </head>
 <body>
     <!-- header section -->
-    <header class="ldg-debug">
-        <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <header class="position-fixed z-3 w-100">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand text-uppercase fw-bolder " href="#">Start Bootstrap</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link ldg-nav" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-uppercase ldg-nav" aria-current="page" href="#portfolio">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ldg-nav" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-uppercase ldg-nav" aria-current="page" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ldg-nav" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-uppercase ldg-nav" aria-current="page" href="#form">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -37,75 +37,148 @@
           </nav>
     </header>
     <!-- main section -->
-    <main class="ldg-debug">
+    <main>
         <!-- hero section -->
-        <section class="ldg-debug odd" id="hero">
-            <div class="container">
-                hero
+        <section class="odd pt-5" id="hero">
+            <div class="ldg-container container m-auto">
+                <img class="pt-5" id="avatar-img" src="img/avatar.svg" alt="">
+                <h2 class="text-center text-white text-uppercase fw-bold mt-3">Start Bootstrap</h2>
+                <div class="d-flex justify-content-center ">
+                    <div class="ldg-line-white d-flex"></div>
+                    <div class="ldg-star-white ms-2 me-2"><i class="fa-solid fa-star fs-3"></i></div>
+                    <div class="ldg-line-white d-flex"></div>
+                </div> 
             </div>
+            <p class="text-white text-center text-uppercase pb-4">Graphic Artist - Web Designer - Illustrator</p>
         </section>
         <!-- portfolio section -->
-        <section class="ldg-debug" id="portfolio">
+        <section id="portfolio" class="pb-5">
             <div class="container">
                 <h2 class="text-uppercase text-center">Portfolio</h2>
-                <div class="star text-center m-auto">star</div>
+                <div class="d-flex justify-content-center">
+                    <div class="ldg-line-black d-flex"></div>
+                    <div class="ldg-star-black ms-2 me-2"><i class="fa-solid fa-star fs-3"></i></div>
+                    <div class="ldg-line-black d-flex"></div>
+                </div> 
                 <div class="row gy-4 ">
-                    <div class="ldg-debug col-12 col-md-6 col-xl-4">
-                        <div class="card overflow-hidden ">
-                            <img class="img-fluid " src="" alt="">
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="card overflow-hidden">
+                            <img class="img-fluid " src="img/cabin.png" alt="">
+                            <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
                         </div>
                     </div>
-                    <div class="ldg-debug col-12 col-md-6 col-xl-4">
+                    <div class="col-12 col-md-6 col-xl-4">
                         <div class="card overflow-hidden ">
-                            <img class="img-fluid " src="" alt="">
+                            <img class="img-fluid " src="img/cake.png" alt="">
+                            <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
                         </div>
                     </div>
-                    <div class="ldg-debug col-12 col-md-6 col-xl-4">
+                    <div class="col-12 col-md-6 col-xl-4">
                         <div class="card overflow-hidden ">
-                            <img class="img-fluid " src="" alt="">
+                            <img class="img-fluid " src="img/circus.png" alt="">
+                            <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
                         </div>
                     </div>
-                    <div class="ldg-debug col-12 col-md-6 col-xl-4">
+                    <div class="col-12 col-md-6 col-xl-4">
                         <div class="card overflow-hidden ">
-                            <img class="img-fluid " src="" alt="">
+                            <img class="img-fluid " src="img/game.png" alt="">
+                            <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
                         </div>
                     </div>
-                    <div class="ldg-debug col-12 col-md-6 col-xl-4">
+                    <div class="col-12 col-md-6 col-xl-4">
                         <div class="card overflow-hidden ">
-                            <img class="img-fluid " src="" alt="">
+                            <img class="img-fluid " src="img/safe.png" alt="">
+                            <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
                         </div>
                     </div>
-                    <div class="ldg-debug col-12 col-md-6 col-xl-4">
+                    <div class="col-12 col-md-6 col-xl-4">
                         <div class="card overflow-hidden ">
-                            <img class="img-fluid " src="" alt="">
+                            <img class="img-fluid " src="img/submarine.png" alt="">
+                            <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- about section -->
-        <section class="ldg-debug odd" id="about">
+        <section class="odd pb-5" id="about">
             <div class="container">
-                about
+                <h3 class="pt-4 text-white text-center  text-uppercase">About</h3>
+                <div class="d-flex justify-content-center ">
+                    <div class="ldg-line-white d-flex"></div>
+                    <div class="ldg-star-white ms-2 me-2"><i class="fa-solid fa-star fs-3"></i></div>
+                    <div class="ldg-line-white d-flex"></div>
+                </div> 
+                <div class="pt-4 ldg-container-p row text-white">
+                    <div class="col-12 col-md-6">
+                        <p>Freelancer is a free bootstrap theme created by Star <br> Bootstrap. The download includes the complete <br> source files including HTML, CSS, and JavaScript as well as <br> optional LESS stylesheets for easy <br> customization</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        Whether you're a student looking to showcase your <br> work, a professional looking to attract clients or a <br> graphic artist looking to share your projects, this <br> template is the perfect starting point!</p>
+                    </div>
+                </div>
+                <div class="text-center pb-3">
+                    <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
+                </div>
             </div>
         </section>
         <!-- form section -->
-        <section class="ldg-debug" id="form">
+        <section id="form" class="pb-5">
             <div class="container">
-                form
+                <h3 class="text-center text-uppercase">Contact me</h3>
+                <div class="d-flex justify-content-center ">
+                    <div class="ldg-line-black d-flex"></div>
+                    <div class="ldg-star-black ms-2 me-2"><i class="fa-solid fa-star fs-3"></i></div>
+                    <div class="ldg-line-black d-flex"></div>
+                </div> 
+
+                <form>
+                    <div class="form-floating mt-4">
+                        <textarea class="form-control" id="floatingTextarea2" style="height: 15px"></textarea>
+                        <label for="floatingTextarea2">Name</label>
+                    </div>
+                    <div class="form-floating mt-4">
+                        <textarea class="form-control" id="floatingTextarea2" style="height: 15px"></textarea>
+                        <label for="floatingTextarea2">Email Address</label>
+                    </div>
+                    <div class="form-floating mt-4">
+                        <textarea class="form-control" id="floatingTextarea2" style="height: 15px"></textarea>
+                        <label for="floatingTextarea2">Phone Number</label>
+                    </div>
+                    <div class="form-floating mt-4">
+                        <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-2">Send</button>
             </div>
         </section>
     </main>
     <!-- footer section -->
-    <footer class="ldg-debug">
-        <div class="bg-secondary footer-top">
+    <footer>
+        <div class="footer-top">
             <div class="container">
-                footer-top
+                <div class="row pt-4">
+                    <div class="col-12 col-md-4 text-center pt-3">
+                        <h5 class="text-white text-uppercase">Location</h5>
+                        <span class="text-white text-center">2215 John Daniel Drive Clark, MO 54243</span>
+                    </div>
+                    <div class="col-12 col-md-4 text-center pt-3">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-12 col-md-4 pt-3 text-center ">
+                        <h5 class="text-white text-uppercase">About Freelancer</h5>
+                        <span class="text-white text-center">Freelance is a free to use, open source Bootstrap theme created by <a class="ldg-green-text">Start Bootstrap</a></span>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <div class="container">
-                footer-bottom
+            <div class="container text-center text-white p-5">
+                <span>Copyright© Your Website 2019</span>
             </div>
         </div>
     </footer>

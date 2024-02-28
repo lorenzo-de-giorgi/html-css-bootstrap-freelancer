@@ -6,10 +6,59 @@
     --color-odd-section: #1ABC9C;
     --color-footer-top: #3a546d;
     --color-footer-bottom: #2C3E50;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-card-hover: #1abc9c9d;
 }
 
 header{
     background-color: var(--color-footer-bottom);
+}
+
+/* star and line */
+
+
+.ldg-star-white{
+    vertical-align: middle;
+    color: var(--color-white);
+}
+
+.ldg-star-black{
+    vertical-align: middle;
+    color: var(--color-footer-bottom);
+}
+
+.ldg-line-white{
+    width: 110px;
+    height: 3px;
+    border-radius: 20px;
+    align-self: center;
+    background-color: var(--color-white);
+}
+
+.ldg-line-black{
+    width: 110px;
+    height: 3px;
+    border-radius: 20px;
+    align-self: center;
+    background-color: var(--color-footer-bottom);
+}
+
+.card i{
+    background-color: rgba(26, 188, 156, 0.7);
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover i{
+    display: flex;
+}
+
+.card .fa-plus{
+    font-size: 50px;
 }
 
 .odd{
@@ -24,10 +73,49 @@ header{
     color: var(--color-odd-section);
 }
 
+.footer-top{
+    background-color: var(--color-footer-top);
+}
+
 .footer-bottom{
     background-color: var(--color-footer-bottom);
 }
 
-.card::after{
+.ldg-container{
+    max-width: 350px;
+    margin: 0 auto;
+}
 
+.ldg-container-p{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+#avatar-img{
+    width: 100%;
+}
+
+.fa-brands{
+    font-size: 30px;
+    color: var(--color-white);
+}
+
+.col-12 .fa-brands{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--color-white);
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.col-12 i {
+    padding: 13px 11px;
+    font-size: 20px;
+    color: var(--color-white);
+}
+
+.ldg-green-text{
+    color: var(--color-odd-section);
+    text-decoration: none;
 }
