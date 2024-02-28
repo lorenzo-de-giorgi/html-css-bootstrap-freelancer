@@ -109,6 +109,11 @@ header{
     margin-right: 15px;
 }
 
+.col-12 .fa-brands:hover{
+    background-color: var(--color-odd-section);
+    transition: 1s;
+}
+
 .col-12 i {
     padding: 13px 11px;
     font-size: 20px;
