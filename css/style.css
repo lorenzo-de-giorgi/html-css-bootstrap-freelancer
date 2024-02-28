@@ -1,0 +1,33 @@
+.ldg-debug{
+    border: 1px solid red;
+}
+
+:root{
+    --color-odd-section: #1ABC9C;
+    --color-footer-top: #3a546d;
+    --color-footer-bottom: #2C3E50;
+}
+
+header{
+    background-color: var(--color-footer-bottom);
+}
+
+.odd{
+    background-color: #1ABC9C;
+}
+
+.ldg-nav{
+    color: white;
+}
+
+.ldg-nav:hover{
+    color: var(--color-odd-section);
+}
+
+.footer-bottom{
+    background-color: var(--color-footer-bottom);
+}
+
+.card::after{
+
+}
